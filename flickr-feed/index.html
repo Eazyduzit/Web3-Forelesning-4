@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
+
+<title>Flickr feed</title>
+
+<link href="bootstrap-jquery/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="bootstrap-jquery/css/bootstrap-theme.min.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+
+    <div class="container">
+        
+        <header class="page-header">
+            <h1>Flickr feed</h1>
+        </header><!--end mainPageHeader-->
+        
+        <section class="row"><!-- -->
+            
+            <div class="col-sm-6"><!-- -->
+                
+                <div class="input-group"><!-- -->
+                   
+                   <input id="searchTermTxt" class="form-control" type="text" placeholder="cat, dog, etc."><!-- -->
+                    
+                    <div class="input-group-btn"><!-- -->
+                        <input id="searchFlickrBtn" class="btn btn-success" type="button" value="search"><!-- -->
+                    </div>
+                </div>
+            </div>
+            
+        </section><!--endMenuSection-->
+        
+        <main id="mainContent" class="row"></main><!--endMainContent-->
+        
+    </div>
+    
+    <script src="bootstrap-jquery/js/jquery.js"></script>
+    <script src="scripts/flickr-feed.js"></script>
+
+</body>
+</html>
